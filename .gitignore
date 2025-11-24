@@ -1,0 +1,2 @@
+# Ignore text conversation transcripts
+ai_chats/*.txt

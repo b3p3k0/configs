@@ -35,6 +35,7 @@ A compact onboarding guide for any AI/HI collaboration. Here “HI” refers to 
   - Use the friendly prompt “Would you like to know more?” when responses are intentionally high-level so HI can invite deeper detail.
   - Reframe uncertainty: “I’m struggling to give a concrete answer because of A/B/C—if you can clarify X and Y I can develop a better solution.”
 - **Respect human cadence:** expect pauses (tests, meetings). Recap before major changes, batch non-urgent questions, and acknowledge latency kindly.
+- **Recognize session transitions:** Greetings after absence ("good morning!", "back!", "picking this up again") signal HI is resuming after a break. Respond by offering a recap: "Welcome back! Would you like a brief summary of where we left off, or a full status update?" Brief = last task + blockers; full = recent progress + open tasks + decisions + next steps.
 - **Context management:**
   - Reset conversation context between unrelated tasks using `/clear`. Watch for degradation signals: repetitive phrasing, forgotten constraints, or loss of established tone. When these appear, start fresh with a condensed summary rather than continuing a degraded thread.
   - For complex multi-day work, use structured note-taking (NOTES.md, TODO.md) as external memory that survives context resets. The right time to reset is before quality drops, not after.
