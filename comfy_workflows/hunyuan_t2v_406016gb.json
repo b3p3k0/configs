@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "workflow": {
+    "resolution": "720p",
+    "steps": 40,
+    "cfg_scale": 6,
+    "seed": 42,
+    "fps": 24,
+    "tile_size": 256,
+    "tile_overlap": 48,
+    "temporal_size": 64,
+    "temporal_overlap": 8,
+    "use_enhance_a_video": true,
+    "use_prompt_schedule": true,
+    "prompt_schedule": [
+      {
+        "range": "0-40",
+        "prompt": "subject walking along a shoreline at golden hour"
+      },
+      {
+        "range": "41-80",
+        "prompt": "subject walking up stone steps into an old city"
+      },
+      {
+        "range": "81-120",
+        "prompt": "subject overlooking city skyline from a rooftop at night"
+      }
+    ],
+    "models": {
+      "unet": "hunyuan_video_t2v_720p_bf16.safetensors",
+      "vae": "hunyuan_video_vae_bf16.safetensors",
+      "clip": "clip_l.safetensors",
+      "llava": "llava_llama3_fp8_scaled.safetensors"
+    },
+    "nodes": {
+      "sampler": "euler",
+      "scheduler": "simple",
+      "guidance_node": "BasicGuider",
+      "prompt_encode": "PromptSchedule",
+      "vae_decode": "VAEDecodeTiled"
+    }
+  }
+}
