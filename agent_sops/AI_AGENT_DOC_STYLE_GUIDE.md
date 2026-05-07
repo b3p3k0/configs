@@ -1,6 +1,8 @@
 # AI Agent Writing Style Guide
 ## Internal Documentation – Voice, Tone, and Anti–AI-Tells Rules
 
+**Related guides:** [Field Guide](AI_AGENT_FIELD_GUIDE.md)
+
 ### Core Principle
 AI is allowed and preferred. Sounding like AI is not.
 

@@ -4,9 +4,9 @@ A practical workflow guide for agents doing repo, code, config, test, release, o
 
 Use this guide with:
 
-- `AI_AGENT_FIELD_GUIDE.md`
-- `AI_AGENT_ROLE_GUIDE.md`
-- `AI_AGENT_CODE_REVIEW_GUIDE.md`
+- [AI Agent Field Guide](AI_AGENT_FIELD_GUIDE.md)
+- [AI Agent Role Guide](AI_AGENT_ROLE_GUIDE.md)
+- [AI Agent Code Review Guide](AI_AGENT_CODE_REVIEW_GUIDE.md)
 - project-specific instructions
 
 ---
@@ -344,7 +344,7 @@ Docs may need updates when changing:
 - defaults
 - troubleshooting steps
 
-Follow `AI_AGENT_DOC_STYLE_GUIDE.md`.
+Follow [AI_AGENT_DOC_STYLE_GUIDE.md](AI_AGENT_DOC_STYLE_GUIDE.md).
 
 Do not duplicate the style guide.
 
@@ -515,7 +515,7 @@ Watch for:
 - silent behavior changes
 - unsupported claims of success
 
-Use `AI_AGENT_CODE_REVIEW_GUIDE.md` before presenting non-trivial work.
+Use [AI_AGENT_CODE_REVIEW_GUIDE.md](AI_AGENT_CODE_REVIEW_GUIDE.md) before presenting non-trivial work.
 
 ---
 

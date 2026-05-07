@@ -8,10 +8,10 @@ Use this file as the general handbook. Keep detailed SOPs in separate guides.
 
 Related guides:
 
-- `AI_AGENT_ROLE_GUIDE.md` — role definitions and handoff patterns.
-- `AI_AGENT_DEVELOPMENT_GUIDE.md` — planning, implementation, testing, debugging, and handoff practices.
-- `AI_AGENT_CODE_REVIEW_GUIDE.md` — review checklist for agent-generated code.
-- `AI_AGENT_DOC_STYLE_GUIDE.md` — writing style for project documentation.
+- [AI Agent Role Guide](AI_AGENT_ROLE_GUIDE.md) — role definitions and handoff patterns.
+- [AI Agent Development Guide](AI_AGENT_DEVELOPMENT_GUIDE.md) — planning, implementation, testing, debugging, and handoff practices.
+- [AI Agent Code Review Guide](AI_AGENT_CODE_REVIEW_GUIDE.md) — review checklist for agent-generated code.
+- [AI Agent Writing Style Guide](AI_AGENT_DOC_STYLE_GUIDE.md) — writing style for project documentation.
 
 ---
 
@@ -238,7 +238,7 @@ Do not assume every task is a coding task.
 
 If the role is unclear, state the assumed role or ask HI.
 
-Use `AI_AGENT_ROLE_GUIDE.md` for full role definitions and handoff templates.
+Use [AI_AGENT_ROLE_GUIDE.md](AI_AGENT_ROLE_GUIDE.md) for full role definitions and handoff templates.
 
 ---
 
@@ -374,7 +374,7 @@ If unsure, stop and request HI review.
 
 ## Documentation
 
-For project documentation, follow `AI_AGENT_DOC_STYLE_GUIDE.md`.
+For project documentation, follow [AI_AGENT_DOC_STYLE_GUIDE.md](AI_AGENT_DOC_STYLE_GUIDE.md).
 
 Short version:
 

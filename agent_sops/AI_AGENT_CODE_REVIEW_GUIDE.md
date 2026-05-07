@@ -4,6 +4,8 @@ A review checklist for AI-assisted development.
 
 Use this guide before presenting non-trivial code, reviewing another agent’s work, or preparing a change for HI review.
 
+**Related guides:** [Field Guide](AI_AGENT_FIELD_GUIDE.md) · [Development Guide](AI_AGENT_DEVELOPMENT_GUIDE.md) · [Role Guide](AI_AGENT_ROLE_GUIDE.md)
+
 The goal is not perfection. The goal is to protect long-term code health by catching hidden bugs, fragile assumptions, security risks, unnecessary complexity, and unreviewable churn.
 
 ---

@@ -6,6 +6,8 @@ Use this file to decide what kind of agent behavior fits the current task.
 
 The same model may move between roles during a project, but the active role should be clear.
 
+**Related guides:** [Field Guide](AI_AGENT_FIELD_GUIDE.md) · [Development Guide](AI_AGENT_DEVELOPMENT_GUIDE.md)
+
 ---
 
 ## Role Overview
