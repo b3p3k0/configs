@@ -1,2 +1,8 @@
 # Ignore text conversation transcripts
 ai_chats/*.txt
+
+# Local Claude Code project instructions
+CLAUDE.md
+
+# Editor swap files
+*.kate-swp
